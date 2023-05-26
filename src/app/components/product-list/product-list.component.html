@@ -1,0 +1,25 @@
+<p>product-list works!</p>
+<div class="table-responsive">
+    <table class="table table-primary">
+        <thead>
+            <tr>
+                <th scope="col">#id</th>
+                <th scope="col">name</th>
+                <th scope="col">price</th>
+                <th scope="col">image</th>
+                <th scope="col">action</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr app-product-item
+            *ngFor="let product of products ;let i = index"
+            [product]="product"
+            [index]="i"
+            (onRemove)="removeItem(product.id)"
+            >
+                
+            </tr>
+        </tbody>
+    </table>
+</div>

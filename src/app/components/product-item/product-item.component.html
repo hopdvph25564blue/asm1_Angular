@@ -1,0 +1,9 @@
+
+<td scope="row">{{index}}</td>
+<td scope="row">{{product.name}}</td>
+<td scope="row">{{product.price}}</td>
+<td scope="row"><img width="50" height="50" src="{{product.image}}" alt=""></td>
+<td><button class="btn btn-danger" (click)="removeItem(product.id)">Delete</button>
+    <button class="btn btn-primary" [routerLink]="+product.id+'/edit'">update</button>
+</td>
+   

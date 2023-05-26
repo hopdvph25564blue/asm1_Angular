@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "price": 200,
+      "image": "https://cdn.pixabay.com/photo/2023/05/16/22/11/wood-duck-7998725__340.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 200,
+      "image": "https://picsum.photos/200/200"
+    },
+    {
+      "id": 3,
+      "name": "Product De",
+      "price": 400
+    },
+    {
+      "id": 5,
+      "name": "hgfkjsd7563547834",
+      "price": 438579435
+    },
+    {
+      "id": 7,
+      "name": "haibara312",
+      "price": 74635843
+    },
+    {
+      "id": 8,
+      "name": "nanannna12",
+      "price": 895764
+    },
+    {
+      "name": "hahahahhah",
+      "price": 1534621,
+      "id": 9
+    }
+  ]
+}
